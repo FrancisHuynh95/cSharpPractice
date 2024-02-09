@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElonsToys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3177ef3279433dbda878f7b747bf0db23ba81c28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe88568c3b82341367950f75add01a35b1c30406")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElonsToys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElonsToys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,21 +12,19 @@ class RemoteControlCar
 
     public string DistanceDisplay()
     {
-        int meters = this._meters;
-        return $"Driven {meters} meters";
+        return $"Driven {_meters} meters";
     }
 
     public string BatteryDisplay()
     {
-        int percentage = this._battery;
-        if(percentage == 0) return "Battery empty";
-        return $"Battery at {percentage}%";
+        if(_battery == 0) return "Battery empty";
+        return $"Battery at {_battery}%";
     }
 
     public void Drive()
     {
-        if(this._battery == 0) return;
-        this._meters+= 20;
-        this._battery--;
+        if(_battery == 0) return;
+        _meters+= 20;
+        _battery--;
     }
 }
